@@ -1,0 +1,9 @@
+server {
+	listen {{nginx_client_port}};
+	root {{nginx_client_path}};
+	index index.html index.htm;
+	server_name {{nginx_client_server}};
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}

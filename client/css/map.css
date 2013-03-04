@@ -1,0 +1,16 @@
+.line {fill:none; stroke:#000; stroke-width:1.5px;}
+.axis path, .axis line {fill:none; stroke:#000; shape-rendering:crispEdges;}
+path { stroke:#fff}
+svg {
+     width: 960px;
+     height: 500px;
+     border: solid 1px #ccc;
+     background: #fff;
+}
+svg circle{
+     stroke-width:0px;
+     opacity : 0.5;
+     fill: blue;
+}  
+.active {fill: red;}
+
